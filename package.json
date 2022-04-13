@@ -1,0 +1,35 @@
+{
+  "name": "wil-parser",
+  "version": "1.0.0",
+  "description": "Parser for *.wil (Legacy version of \"Legend of Mir2\", with *.wix) files.",
+  "main": "lib/parser.js",
+  "types": "lib/parser.d.ts",
+  "scripts": {
+    "postinstall": "rm -f package-lock.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XadillaX/wil-parser.git"
+  },
+  "keywords": [
+    "wil",
+    "mir2"
+  ],
+  "author": "XadillaX <i@233.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XadillaX/wil-parser/issues"
+  },
+  "homepage": "https://github.com/XadillaX/wil-parser#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "eslint": "^8.13.0",
+    "eslint-config-egg": "^11.0.1"
+  },
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "sdk-base": "^3.6.0",
+    "struct-fu": "^1.2.1",
+    "wix-parser": "^1.0.0"
+  }
+}
