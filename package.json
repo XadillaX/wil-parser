@@ -1,6 +1,6 @@
 {
   "name": "wil-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parser for *.wil (Legacy version of \"Legend of Mir2\", with *.wix) files.",
   "main": "lib/parser.js",
   "types": "lib/parser.d.ts",
