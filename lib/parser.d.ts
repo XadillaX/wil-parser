@@ -2,6 +2,8 @@ import Base from 'sdk-base';
 import * as fs from 'fs';
 import { WixImageInfo } from 'wix-parser';
 
+import { Bitmap } from './bitmap';
+
 interface WilFileImageInfo {
   width: number;
   height: number;
@@ -26,4 +28,8 @@ export class Wil extends Base {
   constructor(filename: string, wixFilename?: string | null);
   count(): number;
   destroy(): Promise<void>;
+
+  getBitmap(idx: number): Bitmap;
 }
+
+export function parse(filename: string, wilFilename?: string | null): Wil;
