@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/XadillaX/wil-parser#readme",
   "devDependencies": {
-    "@types/node": "^18.11.9",
+    "@types/node": "^18.11.10",
     "eslint": "^8.13.0",
     "eslint-config-egg": "^11.0.1"
   },
