@@ -27,7 +27,7 @@
     "eslint-config-egg": "^11.0.1"
   },
   "dependencies": {
-    "jimp": "^0.16.2",
+    "jimp": "^0.22.12",
     "sdk-base": "^3.6.0",
     "struct-fu": "^1.2.1",
     "wix-parser": "^1.0.0"
