@@ -30,6 +30,6 @@
     "jimp": "^0.16.2",
     "sdk-base": "^3.6.0",
     "struct-fu": "^1.2.1",
-    "wix-parser": "^1.0.0"
+    "wix-parser": "^2.0.0"
   }
 }
